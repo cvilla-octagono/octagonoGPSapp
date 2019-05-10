@@ -1,0 +1,42 @@
+PODS:
+  - AEXML (4.3.3)
+  - Alamofire (4.8.1)
+  - AlamofireXMLRPC (2.2.0):
+    - AEXML
+    - Alamofire
+  - TextFieldEffects (1.5.1)
+  - TransitionButton (0.5.2)
+
+DEPENDENCIES:
+  - AEXML
+  - Alamofire (~> 4.7)
+  - AlamofireXMLRPC (from `https://github.com/kodlian/AlamofireXMLRPC.git`)
+  - TextFieldEffects
+  - TransitionButton
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AEXML
+    - Alamofire
+    - TextFieldEffects
+    - TransitionButton
+
+EXTERNAL SOURCES:
+  AlamofireXMLRPC:
+    :git: https://github.com/kodlian/AlamofireXMLRPC.git
+
+CHECKOUT OPTIONS:
+  AlamofireXMLRPC:
+    :commit: 513f56d9cfe45a8a9bb0462b5b38956fd7df1894
+    :git: https://github.com/kodlian/AlamofireXMLRPC.git
+
+SPEC CHECKSUMS:
+  AEXML: 601f41fcaa7bda7605cad153b0f43db9ec006c0f
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  AlamofireXMLRPC: 2c3ce65366298bf453273a3a670d6c154bf12689
+  TextFieldEffects: 7d372f58aeaf9acd9626bbf962680aef926b085d
+  TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
+
+PODFILE CHECKSUM: eb93352c7103a7c94f6d4d98ab2266a89a8db33c
+
+COCOAPODS: 1.5.3
